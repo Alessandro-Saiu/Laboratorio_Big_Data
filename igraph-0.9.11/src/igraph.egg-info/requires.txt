@@ -1,0 +1,21 @@
+texttable>=1.6.2
+
+[doc]
+Sphinx>=4.2.0
+sphinxbootstrap4theme>=0.6.0
+
+[plotting]
+cairocffi>=1.2.0
+
+[test]
+networkx>=2.5
+pytest>=7.0.1
+
+[test-musl]
+networkx>=2.5
+pytest>=7.0.1
+
+[test:platform_python_implementation != "PyPy"]
+numpy>=1.19.0
+pandas>=1.1.0
+scipy>=1.5.0

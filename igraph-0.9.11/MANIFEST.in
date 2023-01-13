@@ -1,0 +1,7 @@
+include src/_igraph/*.h
+include MANIFEST.in
+include scripts/mkdoc.sh
+include tests/*.py
+
+graft vendor/source/igraph
+
